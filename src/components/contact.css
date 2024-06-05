@@ -1,90 +1,3 @@
-/* .contact-con {
-    height: 100vh;
-    width: 99vw;
-    background-color: #080808;
-    position: absolute;
-} 
-
-.contact-con .contact-form {
-    border: 1px solid #40A578;
-    margin-left: 500px;
-    width: 30vw;
-    margin-top: 30px;
-    padding: 30px;
-    padding-top: 10px;
-    border-radius: 10px;
-}
-    
-.contact-con .contact-form h1 {
-    text-align: center;
-    margin: 20px;
-    color: #fff;
-}
-
-.contact-con .contact-form form input {
-    display: block;
-    margin: 10px;
-    padding: 10px;
-    width: 90%;
-    border-radius: 10px;
-    border-style: none;
-    background-color: #fff;
-    color: #dcdcdc;
-}
-
-.contact-con .contact-form form textarea {
-    margin: 10px;
-    padding: 10px;
-    width: 90%;
-    border-radius: 10px;
-    border-style: none;
-    background-color: #fff;
-    resize: none;
-}
-
-.contact-con .contact-form button {
-    height: 40px;
-    width: 20rem;
-    margin: 10px;
-    text-align: center;
-    margin-left: 5vw;
-    border-radius: 10px;
-    border-style: none;
-    background-color: #40A578;
-    font-weight: 700;
-    color: #fff;
-    font-size: 20px;
-}
-
-.contact-con .contact-form button:hover {
-    background-color: #fff;
-    color: #40A578;
-}
-
-.contact-con .contact-form .foot_icons {
-    padding: 5px;
-    margin: 5px;
-    display: block;
-}
-
-.contact-con .contact-form .foot_icons {
-    font-size: 30px;
-    padding: 10px;
-    border-top: solid 0.5px gray;
-    text-align: center;
-}
-
-.contact-con .contact-form .foot_icons i {
-    padding: 10px;
-    color: #fff;
-}
-
-.contact-con .contact-form .foot_icons i:hover {
-    background-color: #40A578;
-    border-radius: 10px;
-} */
-
-/* Base styles */
 .contact-con {
     height: 100vh;
     width: 99vw;
@@ -168,7 +81,6 @@
     border-radius: 10px;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 1200px) {
     .contact-con .contact-form {
         width: 40vw;

@@ -1,3 +1,4 @@
+/* src/Navbar.css */
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -6,28 +7,29 @@
     align-items: center;
     justify-content: space-between;
     position: sticky;
+    top: 0;
     background-color: #1b1b1b;
+    padding: 10px 20px;
+    z-index: 1000;
 }
 
 .navbar .logo {
-    width: 30vw;
-    padding: 15px;
-    font-size: 30px;
+    font-size: 24px;
     font-family: "Libre Caslon Text", serif;
     color: #fff;
 }
 
 .nav-box {
+    display: flex;
+    align-items: center;
     padding: 0;
     margin: 0;
 }
 
 .nav-box li {
     list-style: none;
-    float: left;
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
+    margin: 0 10px;
+    font-size: 18px;
 }
 
 .nav-box .nav-links {
@@ -39,4 +41,46 @@
     color: #fff;
 }
 
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+}
 
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar .logo {
+        font-size: 20px;
+    }
+
+    .nav-box {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #1b1b1b;
+    }
+
+    .nav-box.active {
+        display: flex;
+    }
+
+    .nav-box li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .logo {
+        font-size: 18px;
+    }
+
+    .nav-box li {
+        font-size: 16px;
+    }
+}
