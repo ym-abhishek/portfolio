@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: #1b1b1b;
+}
+
+.navbar .logo {
+    width: 30vw;
+    padding: 15px;
+    font-size: 30px;
+    font-family: "Libre Caslon Text", serif;
+    color: #fff;
+}
+
+.nav-box {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-box li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.nav-box .nav-links {
+    text-decoration: none;
+    color: #898989;
+}
+
+.nav-box .nav-links:hover {
+    color: #fff;
+}
+
+

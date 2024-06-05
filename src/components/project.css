@@ -1,0 +1,49 @@
+.project-con {
+    background-color: #080808;
+    height: 160vh;
+}
+
+.project-con h1 {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.project-con .project-block {
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-auto-columns: 200px auto;
+    grid-auto-rows: 320px auto;
+    color: #898989;
+    justify-content: space-around;
+}
+
+.project-con .project-block .my-projects {
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+}
+
+.project-con .project-block .my-projects a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.project-con .project-block .my-projects a h3 {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.project-con .project-block .my-projects a img {
+    width: 200px;
+    height: 250px;
+    border: 1px #3f8e00 solid;
+    border-radius: 10px;
+}
+
+.project-con .project-block .my-projects a img:hover {
+    border: 3px #3f8e00 solid;
+}

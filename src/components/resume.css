@@ -1,0 +1,89 @@
+.res-wrapper {
+    background-color: #080808;
+    color: #fff;
+}
+
+.res-wrapper .res-header {
+    padding: 5px 30px;
+    height: 15vh;
+    background-color: #054bac;
+}
+
+.res-wrapper .res-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.res-wrapper .res-container .res-left,
+.res-wrapper .res-container .res-right {
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.res-wrapper .res-container .res-left {
+    background-color: #2d3542;
+}
+
+.res-wrapper .res-container .res-left h2,
+.res-wrapper .res-container .res-left h3,
+.res-wrapper .res-container .res-right h2,
+.res-wrapper .res-container .res-right h3 {
+    padding: 10px 0;
+}
+
+.res-wrapper .res-container .res-left p span {
+    font-weight: 700;
+}
+
+.res-wrapper .res-container .res-right {
+    background-color: #e6e6e8;
+    color: #080808;
+}
+
+.res-wrapper .res-container .res-right table {
+    font-size: 16px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.res-wrapper .res-container .res-right table th,
+.res-wrapper .res-container .res-right table td {
+    padding: 10px 5px;
+}
+
+.res-wrapper .res-container .res-right table th {
+    text-align: left;
+}
+
+.res-wrapper .res-container .res-right table tr .year {
+    padding: 0 50px;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+    .res-wrapper .res-container .res-left,
+    .res-wrapper .res-container .res-right {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .res-wrapper .res-container {
+        flex-direction: column;
+    }
+
+    .res-wrapper .res-container .res-left,
+    .res-wrapper .res-container .res-right {
+        width: 100%;
+    }
+
+    .res-wrapper .res-container .res-right table {
+        font-size: 14px;
+    }
+
+    .res-wrapper .res-container .res-right table tr .year {
+        padding: 0 20px;
+    }
+}
