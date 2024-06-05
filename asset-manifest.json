@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.48964909.css",
+    "main.js": "/portfolio/static/js/main.61c7f593.js",
+    "static/js/453.acca0757.chunk.js": "/portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/com.png": "/portfolio/static/media/com.653301c0d976d6951a31.png",
+    "static/media/DP.png": "/portfolio/static/media/DP.58382b8d4d642be99cd0.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/Python-logo.png": "/portfolio/static/media/Python-logo.fb265d1074586a9691eb.png",
+    "static/media/number guess.png": "/portfolio/static/media/number guess.9b77bb1d19f7dbf54f14.png",
+    "static/media/React_logo.png": "/portfolio/static/media/React_logo.f153eb9f28437192c6a0.png",
+    "static/media/HTML5-logo.png": "/portfolio/static/media/HTML5-logo.805cfbd3c9d970e56d2b.png",
+    "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.ac2c762b629e3b55851e.png",
+    "static/media/cipher.jpg": "/portfolio/static/media/cipher.7dd468f073e202587996.jpg",
+    "static/media/reg.jpg": "/portfolio/static/media/reg.4cf0029d5a774c6c333c.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.82940b868ac39b69eb93.jpg",
+    "static/media/shoes.jpg": "/portfolio/static/media/shoes.03f61504d201f2f80992.jpg",
+    "static/media/CSS3-logo.png": "/portfolio/static/media/CSS3-logo.6481192f7674db6072c9.png",
+    "static/media/password manager.png": "/portfolio/static/media/password manager.bc7f082768115ab440f0.png",
+    "static/media/Django-Logo.png": "/portfolio/static/media/Django-Logo.c38d8fa8885c4ae7ff4c.png",
+    "static/media/flask.png": "/portfolio/static/media/flask.ffbb519b86186354da51.png",
+    "static/media/music.jpg": "/portfolio/static/media/music.1943f8df5316df655582.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.48964909.css.map": "/portfolio/static/css/main.48964909.css.map",
+    "main.61c7f593.js.map": "/portfolio/static/js/main.61c7f593.js.map",
+    "453.acca0757.chunk.js.map": "/portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48964909.css",
+    "static/js/main.61c7f593.js"
+  ]
+}
